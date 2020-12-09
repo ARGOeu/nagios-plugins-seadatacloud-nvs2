@@ -1,5 +1,5 @@
 Name:		nagios-plugins-seadatacloud-nvs2
-Version:	1.0.1
+Version:	1.1.0
 Release:	2%{?dist}
 Summary:	Nagios nvs2 vocabulary probes
 License:	GPLv3+
@@ -33,5 +33,7 @@ install -m 755 seadatacloud-nvs2.sh %{buildroot}/%{_libexecdir}/argo-monitoring/
 %attr(0755,root,root) /%{_libexecdir}/argo-monitoring/probes/seadatacloud-nvs2/seadatacloud-nvs2.sh
 
 %changelog
+* Wed Dec 09 2020 Themis Zamani <themiszamani@gmail.com>  - 1.1.0-1%{?dist}
+- update it based on the new version of nvs
 * Thu Apr 11 2019 Themis Zamani <themiszamani@gmail.com>  - 1.0.0-1%{?dist}
 - Initial version of the package. Work done by Micahlis Iordanis - iordanism@hcmr.gr 
