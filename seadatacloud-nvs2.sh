@@ -77,7 +77,7 @@ fi
 
 ################################################################
 # Capture HTTP STATUS CODE in variable
-STATUS=$(curl -IL  -w '%{http_code}\n' -s -o /dev/null ${URL})
+STATUS=$(curl -iL  -w '%{http_code}\n' -s -o /dev/null ${URL})
 
 #CHECK if HTTP STATUS CODE is 200
 if [ ${STATUS} -eq 200 ];then
