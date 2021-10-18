@@ -74,8 +74,3 @@ install -m 755 seadatacloud-nvs2.sh %{buildroot}/%{_libexecdir}/argo-monitoring/
 - update it based on the new version of nvs
 * Thu Apr 11 2019 Themis Zamani <themiszamani@gmail.com>  - 1.0.0-1%{?dist}
 - Initial version of the package. Work done by Micahlis Iordanis - iordanism@hcmr.gr 
-
-* Wed Dec 09 2020 Themis Zamani <themiszamani@gmail.com>  - 1.1.0-1%{?dist}
-- update it based on the new version of nvs
-* Thu Apr 11 2019 Themis Zamani <themiszamani@gmail.com>  - 1.0.0-1%{?dist}
-- Initial version of the package. Work done by Micahlis Iordanis - iordanism@hcmr.gr 
