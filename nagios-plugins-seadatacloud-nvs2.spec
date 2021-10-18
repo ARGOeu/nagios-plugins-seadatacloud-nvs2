@@ -1,6 +1,6 @@
 Name:		nagios-plugins-seadatacloud-nvs2
 Version:	1.1.1
-Release:	2%{?dist}
+Release:	1%{?dist}
 Summary:	Nagios nvs2 vocabulary probes
 License:	GPLv3+
 Packager:	Themis Zamani <themiszamani@gmail.com>
